@@ -1,7 +1,7 @@
 //! BME280 driver for sensors attached via I2C.
 
 use embedded_hal::delay::blocking::DelayUs;
-use embedded_hal::i2c::{blocking::I2c, ErrorType};::I2c;
+use embedded_hal::i2c::{blocking::I2c, ErrorType};
 
 use super::{
     BME280Common, Configuration, Error, IIRFilter, Interface, Measurements, Oversampling,
